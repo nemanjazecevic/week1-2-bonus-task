@@ -108,7 +108,7 @@ html, body{
     color: var(--white);
 }
 
-/* @media only screen and (min-width: 375px) {
+/* @media only screen and (max-width: 376px) {
     .container{
         display: flex;
         flex-direction: column;
@@ -116,7 +116,7 @@ html, body{
     }
   } */
 
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 376px) {
     .container{
         grid-template-areas: 
         "card-1"
@@ -128,3 +128,4 @@ html, body{
         
     }
   }
+ 
