@@ -51,6 +51,7 @@ html, body{
 .header{
     display: flex;
     align-items: center;
+    
 }
 
 .header img{
@@ -70,9 +71,13 @@ html, body{
     padding: 15px;
 }
 
+
+
 .card .naslov{
+    position: relative;
     font-family: "Barlow Semi Condensed";
     font-weight: 600;
+    z-index: 2;
 }
 
 .card .text{
@@ -86,6 +91,17 @@ html, body{
     grid-area: card-1;
     background-color: var(--moderate-violete);
     color: var(--white);
+    position: relative;
+}
+.card-1 .slika{
+    
+    left: 60%;
+    position: absolute;
+}
+.card-1 .slika img{
+    width: 80px;
+    height: 80px;
+    
 }
 
 .card-2{
@@ -116,7 +132,7 @@ html, body{
     }
   } */
 
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 376px) {
     .container{
         grid-template-areas: 
         "card-1"
